@@ -1,6 +1,5 @@
 #Kieran Burnett
 #Dev_Ex3
-
 global cake
 cake = "the cake is a lie"
 
@@ -24,13 +23,13 @@ def rate_chooser(from_,to_):
 
 def input_():
     print("Welcome to currency conversion! ")
-    print("1. Pounds")
-    print("2. Euros")
-    print("3. Dollars")
+    print("Pounds")
+    print("Euros")
+    print("Dollars")
     from_ = input("Please enter your starting currency: ")
-    print("1. Pounds")
-    print("2. Euros")
-    print("3. Dollars")
+    print("Pounds")
+    print("Euros")
+    print("Dollars")
     to_ = input("Please enter your ending value: ")
     how_much = input("Please enter how much you want to convert: ")
     return from_,to_,how_much
